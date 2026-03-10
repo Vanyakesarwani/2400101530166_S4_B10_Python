@@ -1,0 +1,73 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+/* Card Style */
+.container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input Fields */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #667eea;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #5a67d8;
+}
+
+/* Counter Number */
+.counter-number {
+  font-size: 40px;
+  margin: 20px 0;
+  color: #764ba2;
+}
+.counter-number {
+  font-size: 40px;
+  margin: 20px 0;
+  color: #764ba2;
+}
+
+button {
+  font-size: 18px;
+}
+
+.container div button:first-child,
+.container div button:last-child {
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+}
